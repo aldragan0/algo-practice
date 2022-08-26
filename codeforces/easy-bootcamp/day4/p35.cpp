@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+/*
+ * Minutes Before the new Year
+ */
+
+int main() {
+	int t;
+	cin >> t;
+	while(t--) {
+		int h, m;
+		cin >> h >> m;
+		cout << (23 - h) * 60 + 60 - m << '\n';
+	}
+}
+
